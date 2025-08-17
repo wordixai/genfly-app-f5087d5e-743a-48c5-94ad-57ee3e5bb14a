@@ -1,12 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import ChatToBuildSection from "@/components/ChatToBuildSection";
+import DrawChangesSection from "@/components/DrawChangesSection";
+import AllInOnePlatformSection from "@/components/AllInOnePlatformSection";
+import DontGetStuckSection from "@/components/DontGetStuckSection";
+import HumanSupportSection from "@/components/HumanSupportSection";
+import HostingSection from "@/components/HostingSection";
+import OwnershipSection from "@/components/OwnershipSection";
+import ComparisonSection from "@/components/ComparisonSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import CTASection from "@/components/CTASection";
+import FAQSection from "@/components/FAQSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Header />
+      <main>
+        <HeroSection />
+        <ChatToBuildSection />
+        <DrawChangesSection />
+        <AllInOnePlatformSection />
+        <DontGetStuckSection />
+        <HumanSupportSection />
+        <HostingSection />
+        <OwnershipSection />
+        <ComparisonSection />
+        <TestimonialsSection />
+        <CTASection />
+        <FAQSection />
+      </main>
+      <Footer />
     </div>
   );
 };
